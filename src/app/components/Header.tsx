@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react'
 import NavListItem from './NavListItem'
-import '../style/header.scss';
 import { LinearButton, OutlinedButton } from './Buttons';
 import Drawer from './Drawer';
 

@@ -1,6 +1,5 @@
 
 import React from 'react';
-import '../style/sections.scss';
 
 type Props = {
     children: React.ReactElement;

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { OutlinedButton } from './Buttons'
 import NavListItem from './NavListItem';
+import SocialIcons from '../UI/SocialIcons';
 
 type Props = {
     isMenuShown: boolean;
@@ -34,6 +35,9 @@ export default function Drawer({isMenuShown}: Props) {
         <NavListItem isNewFeature={true} title='AI Launchpad' url='#'/>
         <hr className='border-slate-800 w-full'/>
     </nav>
+    <div className='flex'>
+      <SocialIcons/>
+    </div>
     </div>
   )
 }
