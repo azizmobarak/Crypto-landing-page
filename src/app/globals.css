@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: #000000;
+  --background-start-rgb: #3D8BFF;
+  --background-end-rgb: #AB23FF;
+}
+
+
+@font-face {
+  font-family: 'MonumentExtended-regular';
+  src: url('/src/fonts/MonumentExtended-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'satoshi-bold';
+  src: url('/src/fonts/Satoshi-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'satoshi-medium';
+  src: url('/src/fonts/Satoshi-Medium.woff2') format('woff2');
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'satoshi-regular';
+  src: url('/src/fonts/Satoshi-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.font-satoshi-bold{
+  font-family: 'satoshi-bold';
+}
+
+.font-satoshi-regular {
+  font-family: 'satoshi-regular';
+}
+
+.font-MonumentExtended-regular {
+  font-family: 'MonumentExtended-regular';
+}
+
+.title-w-55{
+  max-width: 55%;
+}
+
+.text-linear-gradient {
+  background: -webkit-linear-gradient(left,
+  var(--background-start-rgb) 0%,
+  var(--background-end-rgb) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hr-linear-gradient{
+background: -webkit-linear-gradient(left,
+      var(--background-start-rgb) 0%,
+      var(--background-end-rgb) 100%);
+      border: 0;
+      height: 2px;
+}
+
+
+body {
+  /* Gradient from top left to bottom right */
+  background: linear-gradient(to bottom,
+  var(--background-start-rgb) 47%,
+  var(--foreground-rgb) 0%,
+    var(--background-end-rgb) 99%,
+  );
+  /* For compatibility with older browsers */
+  background: -webkit-linear-gradient(top,
+  var(--background-end-rgb) 0%,
+  var(--background-start-rgb) 20%,
+  var(--foreground-rgb) 99%
+    );
+  /* Ensure the gradient covers the entire viewport */
+  height: 100vh;
+  margin: 0;
+}
+
+
+.header-bg-img{
+  background: url('/assets/header.png') no-repeat;
+  background-size: cover;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .header-bg-img {
+      background: url('/assets/header.png') no-repeat;
+      background-size: cover;
+      min-width: 100vw;
+      height: 100%;
+    }
+}

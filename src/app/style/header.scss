@@ -1,0 +1,13 @@
+// can be done with Tailwind css but it's a simple usage of SASS
+// with condition of showing the span
+.navLisItem {
+    & span{
+        color: #AB23FF;
+        background-color: black;
+        padding: 2px;
+        font-size: 10px;
+        top: -5px;
+        position: relative;
+        border-radius: 20px;
+    }
+}
