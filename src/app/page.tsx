@@ -10,7 +10,7 @@ export default function Home() {
         <Header/>
        <div className="flex flex-col grow-4 h-3/4 items-start ml-5 title-w-55 justify-end w-full">
          <h1 className="h1 text-white text-start font-MonumentExtended-regular ml-20 lg:text-6xl sm:text-2xl md:text-4xl uppercase">
-          The world's first
+          The world&apos;s first
           platform for Tokenizing
           AI blockchain projects
         </h1>
