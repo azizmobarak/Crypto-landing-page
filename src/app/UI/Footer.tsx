@@ -8,7 +8,7 @@ export default function Footer() {
         <div className='flex flex-row p-8 w-3/4'>
         <div className='flex flex-row w-2/5 items-center'>
           <span className='w-3/4 text-slate-400'>
-            © Creon 2023. All rights reserved.
+            © ... 2023. All rights reserved.
           </span>
 
           <div className='flex flex-row w-1/4'>
@@ -17,7 +17,7 @@ export default function Footer() {
         </div>
         <div className='flex w-3/5 justify-end'>
          <p className='text-slate-400'>
-            Powered by <strong className='text-slate-100'>NIFTABLES</strong>
+            Powered by <strong className='text-slate-100'>Aziz Mobarak</strong>
          </p>
         </div>
         </div>
