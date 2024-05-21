@@ -11,7 +11,7 @@ export default function Header() {
     <div className="flex justify-between items-center p-4 w-full">
         <Drawer isMenuShown={isMenuShown}/>
     <div className="flex-shrink-0 w-2/4">
-        <img src="/assets/logo.png" alt="Logo" className="h-8"/>
+        <img src="/assets/avatar.png" alt="Logo" className="h-8"/>
     </div>
     <div className='hidden lg:block flex items-center space-x-10 w-2/4'>
     <nav className="flex justify-end items-center space-x-4">
